@@ -18,7 +18,6 @@
         - Clientes e seus endereços
         - Funcionários, departamentos e endereços
         - Produtos
-        - Pedidos e itens de pedido
 
     HISTÓRICO DE VERSÃO:
         v1.0 - 26/11/2025 - Criação inicial (Julio F Zapolla)
