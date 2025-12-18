@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D814E596-0A3E-F0A1-A0F2-5F8EFCFB5148" name="DIC_ITEM_PEDIDO">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>7A12CE9F-4287-039F-93E4-9601C11947E3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item_ped" id="2892B88C-47C3-6763-E2FF-B17D38567857">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>80D60DAE-6DD3-7640-6514-FA48D676E3A8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pedido" id="9271C357-16CD-86F2-E966-48C5291CABCE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:08:48 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF88ED0-3EE9-D78A-611E-4DD2D4BB7E27" referredColumn="18E09977-7DE4-0366-A0A1-C7E3498FF5F9"/>
+</associations>
+</Column>
+<Column name="id_produto" id="69394EA1-7247-8524-F12A-77120B834337">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:52:29 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5B6B6A-4F51-6403-9434-C54AB20835F3" referredColumn="90BD5121-731C-C34F-31BD-7380576E8583"/>
+</associations>
+</Column>
+<Column name="qtd" id="12F63376-D174-0FCC-2AF3-00D308B7A45F">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>ADAE0888-02D0-FE40-06FE-FC0BCB82CDF3</importedID>
+<constraintName>CK_DIC_ITEM_PED_QTD</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="qtd &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_praticado" id="3EB8E94B-7480-C0B7-4F64-2158EC0916FE">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>382E896F-C706-66E4-2FFF-6E3B8528F28D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB7AECFF-EBC0-710B-D346-DED8DA76B0C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FD267BF-6EC7-B557-770B-C6F4BA9D41FE" name="PK_DIC_ITEM_PEDIDO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<generatorID>E4AA0086-5436-EAC2-42F2-153DE5C8C0B4</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2892B88C-47C3-6763-E2FF-B17D38567857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05AC5E29-721F-7D4E-89B4-0CB2380B7CF3" name="FK_DIC_ITEM_PEDIDO_PRODUTO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:52:29 UTC</createdTime>
+<generatorID>6509AF07-3468-DB14-D0FF-00BB9B8D585A</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69394EA1-7247-8524-F12A-77120B834337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6F431BE-BE96-60B8-E5B0-B0AD4DF9C7A4" name="FK_DIC_ITEM_PEDIDO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:08:48 UTC</createdTime>
+<generatorID>DD8C38B5-E760-26C2-7358-501BCA2512AB</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9271C357-16CD-86F2-E966-48C5291CABCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

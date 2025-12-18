@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_END_UNI_LOG" directorySegmentName="seg_0" id="6D1B4F46-0542-E7E4-8A63-A3FBFE60C4BF">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>48473B29-CEE4-A0D2-53C2-C077555B78A5</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>A694213E-05B5-9BB1-ED98-6C2A7A0B58D3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD5F3409-811B-5B22-51DF-7DC1A335866F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>402A7922-AA61-1E83-703F-4F88DDBE0593</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

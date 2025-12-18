@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIC_UNIDADE" directorySegmentName="seg_0" id="4A0390D2-276B-3A4C-0B61-43F988B467E6">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_unidade" id="98985EC7-8570-ABB2-2533-AEADB86837A6">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="id_depto" id="AA59C5D6-FEB5-ACA7-0423-37107D405C62">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:04:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIC_UNIDADE_DEPTO" id="69FB28C4-31D8-4AB2-FE0A-B4BEC9DC1CC8">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:04:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIC_UNIDADE" id="48DFE168-794F-446F-AF18-46AF9DC17AC0">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DIC_UNIDADE_PK" id="90082B59-3B9F-AC12-A54D-85CCBFE83EF9">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DIC_UNIDADE_PK" id="90082B59-3B9F-AC12-A54D-85CCBFE83EF9">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

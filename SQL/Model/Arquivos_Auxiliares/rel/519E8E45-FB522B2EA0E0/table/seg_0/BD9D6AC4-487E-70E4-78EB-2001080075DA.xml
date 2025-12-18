@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD9D6AC4-487E-70E4-78EB-2001080075DA" name="DIC_HISTORICO_PRECO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:21:55 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_hist_preco" id="B06E5944-1F0E-527A-A035-D5F6A5B98702">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produto" id="F5AF3E01-243E-3204-DF8A-0E381F66EB6B">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:26:08 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0C1B446-B315-114D-3C5D-5D0AC0D32424" referredColumn="90BD5121-731C-C34F-31BD-7380576E8583"/>
+</associations>
+</Column>
+<Column name="vl_custo" id="AEDDAAED-D2BB-7BEA-5EAC-08CD4B0AD31A">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_revenda" id="E185520B-6ADE-D7EA-DEA1-3DC7CF39A401">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_vig" id="9BF7C1B4-90F5-39BD-AC40-4BE49A1E4C95">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_vig" id="41E9FE98-0E9E-93AE-D3FC-F86466AF75EE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9A41820-A3EA-07CB-4343-9CCFAC5091CA" name="PK_DIC_HIST_PRECO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:24:41 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B06E5944-1F0E-527A-A035-D5F6A5B98702"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1DA3C21-4250-1171-29B9-81158038DFBB" name="FK_DIC_HIST_PRECO_PROD">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:26:08 UTC</createdTime>
+<generatorID>6509AF07-3468-DB14-D0FF-00BB9B8D585A</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5AF3E01-243E-3204-DF8A-0E381F66EB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

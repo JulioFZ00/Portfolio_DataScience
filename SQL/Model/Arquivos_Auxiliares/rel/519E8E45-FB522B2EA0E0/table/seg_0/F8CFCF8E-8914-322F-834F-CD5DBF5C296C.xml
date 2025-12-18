@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8CFCF8E-8914-322F-834F-CD5DBF5C296C" name="DIC_PRODUTO">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>8D9D71B7-2B5A-ECD1-084C-B8BE4E3514A5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="90BD5121-731C-C34F-31BD-7380576E8583">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>E1FBFE2B-DF30-4138-E615-6B72E4825B9B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_categ" id="16A58D0D-6ED2-A5DC-0F59-1907458AAB30">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:49:19 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F63D483-6CEC-6C56-CB97-F16F88488988" referredColumn="C768707F-F7C9-DBFF-DB50-8806F0FDF903"/>
+</associations>
+</Column>
+<Column name="nm_produto" id="E5457644-5AD8-38B4-48FA-8777CBCCBEF6">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>23B2D7EC-3791-B052-1515-C57CF5E3C2CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9CC57CA3-0BD9-D4F9-BB9A-1A83F6A407CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_custo" id="FCC3E796-BEB6-A68C-316F-67F0E0B185B8">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>8B0BCBBE-FC8E-2EDE-4C04-CA739825A4A1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB7AECFF-EBC0-710B-D346-DED8DA76B0C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_revenda" id="A99DBAEF-AF6F-DD84-BDF4-17DBCF090BC2">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>7250BAEC-6822-50E9-9902-2523C2F777A4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB7AECFF-EBC0-710B-D346-DED8DA76B0C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44C799CC-6B92-03EE-709A-67A68BEE73C3" name="PK_DIC_PRODUTO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<generatorID>6509AF07-3468-DB14-D0FF-00BB9B8D585A</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90BD5121-731C-C34F-31BD-7380576E8583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8944DBC-5457-0980-F1EB-ABAEEB586180" name="FK_DIC_PRODUTO_CATEG">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:49:19 UTC</createdTime>
+<generatorID>6B261B0A-4724-9475-ACB6-D8DE3C7E5C04</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A58D0D-6ED2-A5DC-0F59-1907458AAB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

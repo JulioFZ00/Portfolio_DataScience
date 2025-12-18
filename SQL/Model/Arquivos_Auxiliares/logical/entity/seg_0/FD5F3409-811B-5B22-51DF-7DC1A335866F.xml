@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD5F3409-811B-5B22-51DF-7DC1A335866F" name="DIC LOGRADOURO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>A2FDA773-B12E-761E-FFDE-6E9DB645348C</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id logr" id="36C7595E-808F-4357-849C-C44DA6BF0394">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>930DCB48-9543-3197-B5CF-6A36277A71B8</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id bairro" id="B118C29F-0264-A222-EB77-23EAF1231A9E">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:18:49 UTC</createdTime>
+<generatorID>D131DF98-4151-76C4-FDEF-16E9BEDB9A03</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<referedAttribute>22D59535-BA44-0139-0BE3-642902ECEBEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm logr" id="9DEBA29B-E5BB-943A-924A-2E5C6FB9D0FE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>6C0D70EB-2A6A-E285-F63E-5A4892006DE4</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp logr" id="AF565A08-AB1B-1242-9BDD-FB77A0DA2177">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>97807BD6-F13A-27C5-7365-FF5A2AE61CC6</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id bairro" id="9DDE37C0-5AEB-F8DD-CC46-5CA10CB68200">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:15 UTC</createdTime>
+<generatorID>520AEE88-DD51-05F0-EC02-73417868955D</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<referedAttribute>22D59535-BA44-0139-0BE3-642902ECEBEA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A694213E-05B5-9BB1-ED98-6C2A7A0B58D3" name="DIC_LOGRADOURO PK">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:19:50 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>36C7595E-808F-4357-849C-C44DA6BF0394</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="614502CC-ABFC-49BC-552B-B8A4EE9273FD" name="PK DIC LOGR">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:15 UTC</createdTime>
+<generatorID>3A05D1BA-02E1-AC87-BCAE-BB9C0C30F7EB</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36C7595E-808F-4357-849C-C44DA6BF0394</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

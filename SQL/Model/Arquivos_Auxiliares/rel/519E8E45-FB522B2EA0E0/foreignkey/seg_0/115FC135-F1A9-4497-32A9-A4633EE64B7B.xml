@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="115FC135-F1A9-4497-32A9-A4633EE64B7B" containerWithKeyObject="4266C884-C26C-24CE-95E3-2DDC0A4268CE" localFKIndex="E813C262-8425-B8A6-35C4-289ACFAA18BE" name="FK_DIC_END_UNI_UNI">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>2DC57147-F3FD-C3D6-5281-0FA211CA4347</importedID>
+<referredTableLongName>DIC_UNIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A0390D2-276B-3A4C-0B61-43F988B467E6</referredTableID>
+<keyObject>90082B59-3B9F-AC12-A54D-85CCBFE83EF9</keyObject>
+<referredKeyID>90082B59-3B9F-AC12-A54D-85CCBFE83EF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_unidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

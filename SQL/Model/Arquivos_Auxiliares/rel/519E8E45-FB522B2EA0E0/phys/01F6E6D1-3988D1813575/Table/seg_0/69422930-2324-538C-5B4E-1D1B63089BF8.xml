@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIC_CATEGORIA" directorySegmentName="seg_0" id="69422930-2324-538C-5B4E-1D1B63089BF8">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nm_categ" id="20E0B063-751A-7FFA-B99D-1CA5DBD61D8B">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_categ" id="C768707F-F7C9-DBFF-DB50-8806F0FDF903">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PK_DIC_CATEG" id="55A3B348-A841-EC80-B9C5-00C9214E5BCB">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIC_CATG" id="74BF5C3F-5655-18D5-9BD4-4ABA6BD760AD">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

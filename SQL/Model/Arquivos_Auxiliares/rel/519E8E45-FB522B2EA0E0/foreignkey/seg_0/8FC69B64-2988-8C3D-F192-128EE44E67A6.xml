@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FC69B64-2988-8C3D-F192-128EE44E67A6" containerWithKeyObject="AA5B0FAE-7CB6-BEBD-0A64-1FD5D5E0109E" localFKIndex="E4808DBD-4BC3-1288-7115-D024CA6150D0" name="FK_DIC_END_CLI_LOGR">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:16:02 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<referredTableLongName>DIC_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A2FDA773-B12E-761E-FFDE-6E9DB645348C</referredTableID>
+<keyObject>3A05D1BA-02E1-AC87-BCAE-BB9C0C30F7EB</keyObject>
+<referredKeyID>3A05D1BA-02E1-AC87-BCAE-BB9C0C30F7EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_logr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35CB4E21-083E-709A-28BA-9FD0246FAC73" name="DIC UNIDADE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>4A0390D2-276B-3A4C-0B61-43F988B467E6</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id unidade" id="12821AAD-2918-AC3B-43D0-26269855A9BB">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>98985EC7-8570-ABB2-2533-AEADB86837A6</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id depto" id="5BBC250E-7700-5B75-46DC-1C58AF00CABD">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:30:19 UTC</createdTime>
+<generatorID>6DF9BD3D-8CF3-7A69-5B9A-79086101AF33</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<referedAttribute>F7C38D07-0E94-3BD7-12DE-85F57FAAD923</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id depto" id="19EE02BF-C710-32B6-D3A2-3A98351889B8">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:15 UTC</createdTime>
+<generatorID>C591B97D-7FED-F2DA-A802-4212E0E1FD1F</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<referedAttribute>F7C38D07-0E94-3BD7-12DE-85F57FAAD923</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64DAB179-33B5-77A6-CBBC-47D5A72EBF4D" name="PK_DIC_UNIDADE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:29:16 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12821AAD-2918-AC3B-43D0-26269855A9BB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8A0897D8-82E8-EB16-8E43-20CFF7368C0F" name="DIC UNIDADE PK">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:15 UTC</createdTime>
+<generatorID>90082B59-3B9F-AC12-A54D-85CCBFE83EF9</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>12821AAD-2918-AC3B-43D0-26269855A9BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

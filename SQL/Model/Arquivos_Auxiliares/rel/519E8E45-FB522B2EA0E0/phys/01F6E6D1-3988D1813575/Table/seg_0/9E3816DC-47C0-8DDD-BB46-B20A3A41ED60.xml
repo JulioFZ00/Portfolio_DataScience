@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIC_BAIRRO" directorySegmentName="seg_0" id="9E3816DC-47C0-8DDD-BB46-B20A3A41ED60">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_cidade" id="65479D35-C6C0-753B-AC83-D5C0967FC577">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:46:09 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_bairro" id="674C0D7B-77DC-E0B7-4CD1-E9EBAB987988">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="nm_bairro" id="80EE17D8-A8C0-E371-8C48-F0169E3B5062">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIC_BAIRRO_CIDADE" id="258DCC21-5E00-F031-EA15-5FD78FC85FC6">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:46:09 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PK_DIC_BAIRRO" id="6B797D48-CFF2-1CDD-4370-DC554FEB43D6">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIC_BAIRRO" id="95F92B9F-EBE1-7471-D432-16DD2B2439B8">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

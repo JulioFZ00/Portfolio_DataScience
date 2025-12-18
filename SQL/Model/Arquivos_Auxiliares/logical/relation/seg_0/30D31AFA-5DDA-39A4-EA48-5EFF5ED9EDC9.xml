@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_FUNCN_DEPTO" directorySegmentName="seg_0" id="30D31AFA-5DDA-39A4-EA48-5EFF5ED9EDC9">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>5F78C67B-B2BE-554B-FCD2-91BD95D4522A</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>CE3D6110-C92F-C5CF-53A8-CA463FFD7360</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E311D762-9229-5958-E0AD-E0148631EBC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>934B395C-DC32-3D8B-23E7-63370C3E4E1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

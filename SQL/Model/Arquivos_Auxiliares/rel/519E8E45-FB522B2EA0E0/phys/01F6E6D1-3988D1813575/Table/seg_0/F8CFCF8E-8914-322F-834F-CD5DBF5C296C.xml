@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIC_PRODUTO" directorySegmentName="seg_0" id="F8CFCF8E-8914-322F-834F-CD5DBF5C296C">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_categ" id="16A58D0D-6ED2-A5DC-0F59-1907458AAB30">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:49:19 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_produto" id="90BD5121-731C-C34F-31BD-7380576E8583">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="vl_revenda" id="A99DBAEF-AF6F-DD84-BDF4-17DBCF090BC2">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_produto" id="E5457644-5AD8-38B4-48FA-8777CBCCBEF6">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="vl_custo" id="FCC3E796-BEB6-A68C-316F-67F0E0B185B8">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIC_PRODUTO_CATEG" id="A8944DBC-5457-0980-F1EB-ABAEEB586180">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:49:19 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIC_PRODUTO" id="44C799CC-6B92-03EE-709A-67A68BEE73C3">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PK_DIC_PROD" id="71B20510-EAA6-3A61-2823-3546C2B54FFC">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

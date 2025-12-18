@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_PEDIDO_FUNCI" directorySegmentName="seg_0" id="E208499B-DE2C-8C01-5353-A271B0E1797F">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:16 UTC</createdTime>
+<generatorID>3E30C203-1E31-76AA-ABB6-153CE5FB07FC</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>FAF9B053-FF56-FCC1-EBA9-F312D0931DF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>934B395C-DC32-3D8B-23E7-63370C3E4E1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>69B4A6D9-FF48-5AC4-9E83-79AB4CBA92F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

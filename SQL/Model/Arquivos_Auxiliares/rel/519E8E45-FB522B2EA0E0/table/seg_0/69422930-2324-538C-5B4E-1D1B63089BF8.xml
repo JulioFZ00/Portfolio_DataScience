@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69422930-2324-538C-5B4E-1D1B63089BF8" name="DIC_CATEGORIA">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>08761195-CCEF-4020-A6DE-EDA0184111EA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categ" id="C768707F-F7C9-DBFF-DB50-8806F0FDF903">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>46BD12E8-AC56-4913-08B8-7D4BD05D2C2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_produto" id="20E0B063-751A-7FFA-B99D-1CA5DBD61D8B">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>76E0353B-47E8-B696-FA00-1B7074967F8E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_base" id="26F7214A-D7B9-7E3B-26BA-E850458642E1">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:33:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_embalagem" id="2C9FF8B0-2080-1AB0-27F3-21BBD139E31E">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-10 12:33:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74BF5C3F-5655-18D5-9BD4-4ABA6BD760AD" name="PK_DIC_CATG">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<generatorID>6B261B0A-4724-9475-ACB6-D8DE3C7E5C04</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C768707F-F7C9-DBFF-DB50-8806F0FDF903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

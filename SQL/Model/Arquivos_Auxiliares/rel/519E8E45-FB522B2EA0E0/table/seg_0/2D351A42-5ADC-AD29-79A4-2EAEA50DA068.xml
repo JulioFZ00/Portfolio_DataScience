@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D351A42-5ADC-AD29-79A4-2EAEA50DA068" name="DIC_PEDIDO">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>FC95C196-FF12-712D-C4D7-58A31B22508D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="18E09977-7DE4-0366-A0A1-C7E3498FF5F9">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>4CE02364-B940-1CB9-53E7-64C561E5EB2A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="C224CED0-1256-927B-1612-CD6C49241D70">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:12:25 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B568A6D7-AE0E-B898-1066-754512D7D87F" referredColumn="BD7274D5-90D7-196D-BF85-A40D853389B0"/>
+</associations>
+</Column>
+<Column name="id_funci" id="CBD3B43E-CCD7-D310-47B5-4CD675217EDD">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:07:23 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E30C203-1E31-76AA-ABB6-153CE5FB07FC" referredColumn="6862DB4A-5648-A1BE-2F21-F55661A60873"/>
+</associations>
+</Column>
+<Column name="dt_pedido" id="19108806-993B-5F16-985F-84117D9251B9">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>3854DC9B-CC7E-65B5-452B-A0ABB32B9E1F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>B06ED0ED-98EB-AF7F-86F4-0A83091D8323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C57018AD-0C9E-5E06-F6E1-BCAC5BD4B6F5" name="PK_DIC_PEDIDO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<generatorID>DD8C38B5-E760-26C2-7358-501BCA2512AB</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18E09977-7DE4-0366-A0A1-C7E3498FF5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF5C1105-67BB-864E-9DCA-31AC91469900" name="FK_DIC_PEDIDO_FUNCI">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:07:23 UTC</createdTime>
+<generatorID>FAF9B053-FF56-FCC1-EBA9-F312D0931DF3</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD3B43E-CCD7-D310-47B5-4CD675217EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E19FB409-1434-FD0F-348A-A3344EB7B061" name="FK_DIC_PEDIDO_CLIENTE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:12:25 UTC</createdTime>
+<generatorID>E825F8BE-1DE7-ADA8-68AB-8E3B8811449E</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C224CED0-1256-927B-1612-CD6C49241D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

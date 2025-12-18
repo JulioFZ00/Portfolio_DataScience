@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_CIDADE_ESTADO" directorySegmentName="seg_0" id="E08D494D-321B-91B8-B282-CFC501270FCA">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:15 UTC</createdTime>
+<generatorID>4BB08031-4035-2859-4883-39177A1A230E</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>4E1F4EAE-7594-B4B8-7ABC-77C9E346E864</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D38246C-2EDA-26BE-4CFE-7099CB8A1215</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFD067D8-8B83-F71B-AB11-B4ADF9450726</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

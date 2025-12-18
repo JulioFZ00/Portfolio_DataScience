@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAE96060-980A-EF05-323F-A543A4978190" name="DIC_DEPTO_UNIDADE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:37:51 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_depto_uni" id="729532C5-2AB0-B663-020C-D6095326CB8C">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:38:54 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_unidade" id="7CA2FC2B-E0D8-9E15-3071-10DF9295C6E4">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:47:25 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB6BE4A1-48A9-A11E-28C3-72DBB1A2856B" referredColumn="98985EC7-8570-ABB2-2533-AEADB86837A6"/>
+</associations>
+</Column>
+<Column name="id_depto" id="B17E4D93-6C90-721C-B282-5058426BB14C">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:46:29 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB97F53C-52E3-7E63-7A0D-9B651AB1EFB9" referredColumn="343C55EB-356F-6D06-2AD8-D7E329675D04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6410E775-9EE3-3671-18D6-3AC467AC0DCD" name="PK_DIC_DEPTO_UNIDADE">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:38:54 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="729532C5-2AB0-B663-020C-D6095326CB8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CD0F668-DA3D-F9C1-E348-59F8C4C93666" name="UN_DIC_DEPTO_UNIDADE_">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 14:22:28 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B17E4D93-6C90-721C-B282-5058426BB14C"/>
+<colUsage columnID="7CA2FC2B-E0D8-9E15-3071-10DF9295C6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65A1019A-F838-074B-A5BF-34F66AFC20EC" name="FK_DIC_DEPTO_UNI_DEPTO">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:46:29 UTC</createdTime>
+<generatorID>CE3D6110-C92F-C5CF-53A8-CA463FFD7360</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B17E4D93-6C90-721C-B282-5058426BB14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35395A80-BF45-D1D2-18B4-39162259C6C7" name="FK_DIC_DEPTO_UNI_UNI">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-04 13:47:25 UTC</createdTime>
+<generatorID>64DAB179-33B5-77A6-CBBC-47D5A72EBF4D</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CA2FC2B-E0D8-9E15-3071-10DF9295C6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

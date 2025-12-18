@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="SCRIPT_DDL_PROJETO_DIC_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_14" id="2E224AC6-78DD-24FF-2034-7568D918B039">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:44:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>14</dataTypeSize>
+<fileName>SCRIPT_DDL_PROJETO_DIC_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_11" id="65276B5F-ACA8-22CA-F094-21957D2C00C4">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:44:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>11</dataTypeSize>
+<fileName>SCRIPT_DDL_PROJETO_DIC_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_6_2_0" id="C611FAA9-7A81-32DD-2C56-83E132D4807C">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:44:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>SCRIPT_DDL_PROJETO_DIC_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_9" id="F9B23066-114E-CD64-526D-3735354504DF">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:44:43 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>9</dataTypeSize>
+<fileName>SCRIPT_DDL_PROJETO_DIC_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

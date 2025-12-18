@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_LOG_BAIR" directorySegmentName="seg_0" id="D131DF98-4151-76C4-FDEF-16E9BEDB9A03">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>790A8976-B7BF-07F9-1681-38A77AAD1A4C</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>0F14FBF4-3CF6-B59B-977F-46DE9D3FD522</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75666427-3CA7-859A-191A-952C2DDC2444</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD5F3409-811B-5B22-51DF-7DC1A335866F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

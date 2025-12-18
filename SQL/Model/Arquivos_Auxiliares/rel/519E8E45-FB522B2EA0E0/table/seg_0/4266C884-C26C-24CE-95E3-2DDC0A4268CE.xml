@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4266C884-C26C-24CE-95E3-2DDC0A4268CE" name="DIC_END_UNI">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>2E39E902-3321-B4BA-EF9A-14E4E4C65E2C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_end_uni" id="4DCAC564-FCC8-4748-8C41-863E6335C131">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>F3BAD952-621A-4F02-F036-0541AD3FDA40</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_unidade" id="D174283B-82E2-F0BC-6675-AA7A9CC6D879">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>38DD9B95-F005-35E9-0DE3-10097B8333CB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="115FC135-F1A9-4497-32A9-A4633EE64B7B" referredColumn="98985EC7-8570-ABB2-2533-AEADB86837A6"/>
+</associations>
+</Column>
+<Column name="id_logr" id="95C89C4C-4E69-39A2-EF8C-BD01147D37C4">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:58:13 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73D67692-1E26-7690-B8F0-90FE148719A7" referredColumn="930DCB48-9543-3197-B5CF-6A36277A71B8"/>
+</associations>
+</Column>
+<Column name="nu_cep" id="7E73B565-4D4C-E36D-6663-86D187D5DD19">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>A77D0FA3-EACE-C3A7-4B7A-31ACE242B62D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66E44CA7-CA72-23D5-7111-F8C4AD36DB6D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nu_numero" id="98765467-E0D2-7B77-3BA3-C33C537BC033">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>2F16B649-1AF8-F642-5151-2A9503396591</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE5921DA-D17E-78B7-FE02-53F6557242EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73360FB9-E73D-880F-3EAF-9D41FD0A6CD2" name="PK_DIC_END_UNI">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 12:58:12 UTC</createdTime>
+<generatorID>21EBCFBB-0CE7-7A8A-4BE3-7189144D7BF4</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DCAC564-FCC8-4748-8C41-863E6335C131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9FC9B66-7423-A973-351A-083DABBAEDEF" name="UN_DIC_END_UNI">
+<sourceDDLFile>modelo_relacional_sorveteria.sql</sourceDDLFile>
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<importedID>73BBFE21-B3F7-0CCA-1642-1B883D639B31</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D174283B-82E2-F0BC-6675-AA7A9CC6D879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2A37362-9B2A-8422-E77A-0490D8AEA731" name="FK_DIC_END_UNI_LOGR">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 13:58:13 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C89C4C-4E69-39A2-EF8C-BD01147D37C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E813C262-8425-B8A6-35C4-289ACFAA18BE" name="FK_DIC_END_UNI_UNI">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:37:27 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D174283B-82E2-F0BC-6675-AA7A9CC6D879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

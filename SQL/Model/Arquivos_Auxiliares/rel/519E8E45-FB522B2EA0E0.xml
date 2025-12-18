@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" mainViewID="229BA094-2A31-7F68-EF55-204AD5F661A0">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:28:29 UTC</createdTime>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>modelo_relacional_sorveteria.sql</fileName>
+<pathName>C:\Users\julio\OneDrive\Área de Trabalho\SQL</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>SCRIPT_DDL_PROJETO_DIC.SQL</fileName>
+<pathName>C:\Users\julio\OneDrive\Área de Trabalho\SQL</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

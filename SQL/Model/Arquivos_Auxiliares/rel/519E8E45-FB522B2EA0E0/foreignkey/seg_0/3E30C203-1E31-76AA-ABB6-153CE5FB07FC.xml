@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E30C203-1E31-76AA-ABB6-153CE5FB07FC" containerWithKeyObject="2D351A42-5ADC-AD29-79A4-2EAEA50DA068" localFKIndex="EF5C1105-67BB-864E-9DCA-31AC91469900" name="FK_DIC_PEDIDO_FUNCI">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 14:07:23 UTC</createdTime>
+<generatorID>FAF9B053-FF56-FCC1-EBA9-F312D0931DF3</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<referredTableLongName>DIC_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A05192E-9541-1772-D5C5-8325CF435A8E</referredTableID>
+<keyObject>1C534523-D1D8-CA40-FCA9-B7F526EE12EA</keyObject>
+<referredKeyID>1C534523-D1D8-CA40-FCA9-B7F526EE12EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_funci</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

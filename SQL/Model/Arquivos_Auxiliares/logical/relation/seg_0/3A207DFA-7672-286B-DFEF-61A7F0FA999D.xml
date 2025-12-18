@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIC_ITEM_PEDI_PEDI" directorySegmentName="seg_0" id="3A207DFA-7672-286B-DFEF-61A7F0FA999D">
+<createdBy>julio</createdBy>
+<createdTime>2025-12-03 11:57:14 UTC</createdTime>
+<generatorID>1AD2770E-08F4-B938-015F-23D987A7C3CD</generatorID>
+<ownerDesignName>DIC_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="519E8E45-25E6-1203-1ECC-FB522B2EA0E0" value="true"/>
+</engineerTo>
+<sourcePk>F9C2225B-2331-5104-8E6D-D2863EDCBD12</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69B4A6D9-FF48-5AC4-9E83-79AB4CBA92F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63A0DFB4-C6AB-8B82-AE39-B18F056F12C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
