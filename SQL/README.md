@@ -19,7 +19,7 @@ This project simulates a real-world sales database for an ice cream business, de
 - Price history with validity periods
 - Employees and units
 
-📎 See `model/relational_model.pdf`
+📎 See `model/PDF_RELACIONAL.pdf`
 
 ## ⚙️ Technologies
 - Oracle Database
