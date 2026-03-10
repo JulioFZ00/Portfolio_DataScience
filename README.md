@@ -110,6 +110,10 @@ This behavior may indicate a **more consolidated customer base and increasing re
 
 <img width="680" height="280" alt="comparacao_faturamento" src="https://github.com/user-attachments/assets/6a0637a2-8c73-4aa0-9541-bc7b38c65038" />
 
+Revenue in 2024 starts significantly higher in the first quarter,
+declines during mid-year months, and gradually increases again toward the end of the year,
+suggesting potential seasonal demand patterns.
+
 ---
 
 ## 🚀 How to Run the Project
