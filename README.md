@@ -2,7 +2,7 @@
 
 This project is part of my **Data Science portfolio** and focuses on exploring and analyzing sales data from a fictional ice cream company called **Deep Ice Cream (DIC)**.
 
-The goal of the project is to demonstrate practical skills in **data manipulation, SQL querying, exploratory data analysis (EDA), and data interpretation** using a structured relational dataset.
+The goal of this project is to simulate a real-world sales analysis workflow, combining SQL and Python to explore, validate, and analyze structured business data.
 
 ---
 
