@@ -47,7 +47,6 @@ This project uses the following tools:
 
 ```
 Portfolio_DataScience/
-
 ├── SQL/
 │   └── SQL queries used for data modeling and analytical exploration
 │
