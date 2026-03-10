@@ -88,7 +88,7 @@ The exploratory analysis includes:
 
 ---
 
-## 📈 Example Questions Explored
+## 📈 Business Questions
 
 Some of the business questions explored in this project include:
 
@@ -101,12 +101,14 @@ Some of the business questions explored in this project include:
 
 ## 📊 Key Insights
 
-Some important insights identified during the analysis:
+### Revenue Stabilization in the Second Year
 
-- A **small group of products concentrates a large portion of total revenue**, indicating strong product concentration.
-- Sales show **clear temporal patterns**, suggesting potential seasonality effects.
-- Some **states present significantly higher sales volumes**, indicating regional demand differences.
-- Customer purchasing behavior is **highly skewed**, with a smaller number of customers responsible for a large share of purchases.
+The second year of operation shows a more stable revenue pattern compared to the first year.  
+While the first year presents stronger fluctuations, the second year appears to follow a more consistent growth pattern across the months.
+
+This behavior may indicate a **more consolidated customer base and increasing recurring purchases** as the company matures.
+
+<img width="1140" height="603" alt="comparacao_faturamento" src="https://github.com/user-attachments/assets/6a0637a2-8c73-4aa0-9541-bc7b38c65038" />
 
 ---
 
