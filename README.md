@@ -108,7 +108,7 @@ While the first year presents stronger fluctuations, the second year appears to 
 
 This behavior may indicate a **more consolidated customer base and increasing recurring purchases** as the company matures.
 
-<img width="1140" height="603" alt="comparacao_faturamento" src="https://github.com/user-attachments/assets/6a0637a2-8c73-4aa0-9541-bc7b38c65038" />
+<img width="680" height="280" alt="comparacao_faturamento" src="https://github.com/user-attachments/assets/6a0637a2-8c73-4aa0-9541-bc7b38c65038" />
 
 ---
 
