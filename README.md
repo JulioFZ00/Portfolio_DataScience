@@ -114,6 +114,7 @@ Revenue in 2024 starts significantly higher in the first quarter,
 declines during mid-year months, and gradually increases again toward the end of the year,
 suggesting potential seasonal demand patterns.
 
+---
 
 ### Product Average Ticket Analysis
 
