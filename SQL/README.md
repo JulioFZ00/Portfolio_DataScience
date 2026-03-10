@@ -9,8 +9,8 @@ This project simulates a real-world sales database for an ice cream business, de
 - Analytical SQL views
 
 ## 🗂 Project Structure
-- **model/**: Relational model created with Oracle SQL Developer Data Modeler
-- **sql/**: Database creation, data population, procedures, and analytical views
+- **Model/**: Relational model created with Oracle SQL Developer Data Modeler
+- **Sql/**: Database creation, data population, procedures, and analytical views
 
 ## 🧱 Database Model
 - Customers
