@@ -13,7 +13,7 @@ The main goals of this analysis are:
 - **sql/**: Database creation scripts, data population, and business rules
 - **notebooks/**:
   - `01_EDA_Vendas.ipynb`: Exploratory Data Analysis using Python
-- **model/** (optional): Relational database model and documentation
+- **model/**: Relational database model and documentation
 
 ## 🧱 Data Model Overview
 The analysis is based on a consolidated fact table created from the following entities:
