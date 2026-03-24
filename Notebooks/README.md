@@ -29,12 +29,10 @@ The fact table ensures:
 - Reliable analytical relationships between entities
 
 ## ⚙️ Technologies Used
-- Python
-- DuckDB
-- Pandas
-- Matplotlib
-- Seaborn
-- SQL (data modeling and preparation)
+- Python (Pandas, NumPy)
+- SQL (DuckDB)
+- Data visualization (Matplotlib, Seaborn)
+- Jupyter Notebook
 
 ## 🔍 Analysis Performed
 ### Descriptive Analysis
