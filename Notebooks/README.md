@@ -66,6 +66,8 @@ The fact table ensures:
 
 ## 🛠 How to Run the Project
 1. Ensure Python is installed
-2. Install required libraries:
+2. Clone the repository
+3. Install required libraries:
    ```bash
    pip install pandas duckdb matplotlib seaborn
+4. Run the notebooks in the /Notebooks folder
