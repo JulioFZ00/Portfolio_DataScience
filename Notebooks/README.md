@@ -1,4 +1,6 @@
-# Deep Ice Cream (DIC) – Sales EDA Project
+<img width="627" height="376" alt="image" src="https://github.com/user-attachments/assets/4009d162-c22b-426e-8879-02dc9fe02214" /># Deep Ice Cream (DIC) – Sales EDA Project
+
+This project explores sales data to uncover patterns in revenue, product performance, and regional behavior, supporting data-driven decision-making.
 
 ## 📌 Objective
 This project presents an Exploratory Data Analysis (EDA) of a simulated sales system for an ice cream business, built on top of a relational database developed in SQL.
@@ -28,13 +30,7 @@ The fact table ensures:
 - Correct aggregation of quantities and monetary values
 - Reliable analytical relationships between entities
 
-## ⚙️ Technologies Used
-- Python (Pandas, NumPy)
-- SQL (DuckDB)
-- Data visualization (Matplotlib, Seaborn)
-- Jupyter Notebook
-
-## 🔍 Analysis Performed
+## 🔍 Approach / Analysis Performed
 ### Descriptive Analysis
 - Distribution of prices and total sales values
 - Identification of skewness and outliers
@@ -64,7 +60,26 @@ The fact table ensures:
 - Clear seasonality is observed, with mid-year revenue drops followed by recovery
 - In 2024, revenue recovery was more stable compared to 2023, especially in top-performing states
 
-## 🛠 How to Run the Project
+  <p align="center">
+  <img width="630" height="376" alt="image" src="https://github.com/user-attachments/assets/f60665e8-76ec-4dfa-8627-0337c72882b3" />
+
+</p>
+
+## 🧠 Conclusion
+
+The analysis shows that revenue is driven by a combination of sales volume and average ticket. Top-performing products and regions tend to combine both high volume and higher value per transaction.
+
+However, this relationship is not consistent across all cases, indicating that different products and regions may generate revenue through distinct strategies — either through high frequency of sales or higher value per order.
+
+These findings highlight the importance of analyzing volume and ticket together to better understand business performance and support decision-making.
+
+## ⚙️ Technologies  
+- Python (Pandas, NumPy)
+- SQL (DuckDB)
+- Data visualization (Matplotlib, Seaborn)
+- Jupyter Notebook
+
+## 🛠 How to Run
 1. Ensure Python is installed
 2. Clone the repository
 3. Install required libraries:
