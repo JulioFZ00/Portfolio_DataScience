@@ -118,8 +118,9 @@ In 2023, revenue shows strong fluctuations, including sharp drops and significan
 
 In contrast, 2024 presents a more controlled and consistent behavior, with smoother variations and fewer extreme changes throughout the year.
 
-<img width="621" height="392" alt="image" src="https://github.com/user-attachments/assets/4f16f537-1e22-4320-902c-119be8af2111" />
-
+  <p align="center">
+  <img width="621" height="392" alt="image" src="https://github.com/user-attachments/assets/4f16f537-1e22-4320-902c-119be8af2111" />
+</p>
 This pattern suggests that the business became more stable over time, potentially reflecting a more consolidated customer base, improved demand predictability, and a more structured sales cycle.
 
 ---
